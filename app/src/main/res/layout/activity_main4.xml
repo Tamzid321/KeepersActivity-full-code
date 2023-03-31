@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/keeper_s_cost__04"
+    tools:context=".MainActivity4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/welcomeBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:text="Welcome Back"
+        android:textColor="#63809C"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/welcomeBack"
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Abdul"
+        android:textColor="#63809C"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/buybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/group_536" />
+
+        <ImageView
+            android:background="#F2F2F2"
+            android:paddingTop="5dp"
+            android:id="@+id/sale_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/sale_button" />
+
+        <ImageView
+            android:background="#f2f2f2"
+            android:paddingTop="5dp"
+            android:id="@+id/stock_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/stock_button" />
+
+        <ImageView
+            android:background="#f3f3f3"
+            android:paddingTop="5dp"
+            android:id="@+id/expense_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/expense_button" />
+
+        <ImageView
+            android:background="#f3f3f3"
+            android:paddingTop="5dp"
+            android:id="@+id/report_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/report_button" />
+
+        <ImageView
+            android:paddingBottom="10dp"
+            android:background="#f3f3f3"
+            android:paddingTop="5dp"
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/logout_button" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
